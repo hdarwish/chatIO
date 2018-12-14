@@ -1,0 +1,17 @@
+{
+  "name": "chatio",
+  "version": "1.0.0",
+  "description": "sockets io chat with mongo",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "debug": "nodemon --inspect server.js"
+  },
+  "author": "hafs",
+  "license": "ISC",
+  "dependencies": {
+    "mongojs": "^2.4.1",
+    "socket.io": "^2.0.4",
+    "express": "*"
+  }
+}
